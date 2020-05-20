@@ -13,15 +13,9 @@ class Cart extends Component {
   };
 
   goHome() {
-    if (Taro.getEnv() === Taro.ENV_TYPE.WEB) {
-      Taro.navigateTo({
-        url: '/pages/home/index',
-      });
-    } else {
-      Taro.switchTab({
-        url: '/pages/home/index',
-      });
-    }
+    Taro.switchTab({
+      url: '/pages/home/index',
+    });
   }
 
   clothingNumExplain() {

@@ -1,4 +1,3 @@
-import '@tarojs/async-await';
 import Taro, { Component } from '@tarojs/taro';
 import Home from './pages/home';
 import dva from './utils/dva';
